@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comic SYSTEM "comic.dtd">
+
+<comic>
+
+	<defaults id="1"
+		pagewidth = 	"210mm"
+		pageheight = 	"297mm"
+		kopfsteg = 		"20mm"
+		fusssteg = 		"27mm"
+		aussensteg = 	"15mm"
+		bundsteg = 		"15mm"
+		dividerwidth = 	"3mm"
+		panelsperrow = 	"3"
+		panelspercol = 	"3"
+		resolution = "300"
+		imageborder = "40"
+	/>
+		
+	<page id="1">
+		<description>
+			Ich weiß nicht was soll es bedeuten,
+			Dass ich so traurig bin;
+			Ein Märchen aus alten Zeiten,
+			Das kommt mir nicht aus dem Sinn.
+		</description>
+		<panel id="1" width="max" height="2x">
+			<description>
+				Der ich-Erzähler sitzt an der Straßenbahnhaltestelle.
+				Man sieht eine Straßenkreuzung von oben (totale)
+			</description>
+			<text type="think">Ich weiß nicht</text>
+		</panel>
+		<panel id="2" width="1.5x">
+			<description>Ich-Erzähler auf einer Bank, von oben</description>
+			<text type="think">Was soll es bedeuten, dass ich so traurig bin?</text>
+		</panel>
+		<panel id="3" width="1.5x">
+			<description>Ich Erhähler, ganz aus der Nähe.</description>
+			<text type="think">Ein Märchen aus alten Zeiten, das kommt mir nicht aus dem Sinn.</text>
+		</panel>
+	</page>
+	
+	<page id="2">
+		<description>
+			Die Luft ist kühl und es dunkelt,
+			Und ruhig fließt der Rhein;
+			Der Gipfel des Berges funkelt
+			Im Abendsonnenschein.
+		</description>
+		<panel id="1" width="max" height="0.7x">
+			<description>
+				Berliner Dächer, beschienen von der Abendsonne.
+			</description>
+			<text type="box">Die Luft ist kühl und es dunkelt...</text>
+		</panel>
+		<panel id="2" width="1.5x" height="max">
+			<description>Autos auf der Kreuzung, die vorher zu sehen war. Lange "Belichtung", sodass die Lichter als Streifen zu sehen sind.</description>
+			<text type="box">...und ruhig fließt der Rhein;</text>
+		</panel>
+		<panel id="3" width="1.5x" height="max">
+			<description>Fernsehturm von Berlin im Gegenlicht</description>
+			<text type="box">Der Gipfel des Berges funkelt im Abendsonnenschein.</text>
+		</panel>
+	</page>
+	
+	<page id="3">
+		<description>
+			Die schönste Jungfrau sitzet
+			Dort oben wunderbar;
+			Ihr goldnes Geschmeide blitzet,
+			Sie kämmt ihr goldenes Haar.
+
+			Sie kämmt es mit goldenem Kamme
+			Und singt ein Lied dabei;
+		</description>
+		<panel id="1" width="max" height="1.2x">
+			<description>
+				Balkon mit Loreley von schräg oben
+			</description>
+			<text type="box">Die schönste Jungfrau sitzet dort oben wunderbar; Ihr goldnes Geschmeide blitzet, sie kämmt ihr goldenes Haar.</text>
+			<text type="box">Sie kämmt es mit goldenem Kamme</text>
+		</panel>
+		<panel id="2">
+			<description>Ein "Ghetto-Blaster" auf dem Display steht "Ace of Base" oder "Maria Callas" oder "Nina Simone" oder sonstwas.</description>
+			<text type="box">...und singt ein Lied dabei</text>
+		</panel>
+		<panel id="3" height="max" float="false">
+			<description>auf dem Balkon ist auch eine schwarze Katze. Hier in nahaufname zu sehen.</description>
+		</panel>
+		<panel id="4" height="1.8x" width="max">
+			<description>Die Loreley in Nahaufname. Blond, natürlich. In der Hand hat sie einen Föhn. unten im Bild: die Katze.</description>
+		</panel>		
+	</page>	
+	
+	<page id="4">
+		<description>
+			Das hat eine wundersame,
+			Gewaltige Melodei.
+
+			Den Schiffer im kleinen Schiffe
+			Ergreift es mit wildem Weh;
+		</description>
+		<panel id="1" width="max">
+			<description>
+				totale: Loreley auf ihrem Balkon, davon ausgehend bunte Schnörkel.
+				In der Ferne nähert sich ein LKW der Kreuzung.
+			</description>
+			<text type="box">Das hat eine wundersame, gewaltige Melodei.</text>
+		</panel>
+		<panel id="2" width="max" height="max" float="false">
+			<description>der LKW, grösser. Man kann jetzt die Aufschrift erkennen: Spedition Schiffer Transporte</description>
+			<text type="box">Den Schiffer im kleinen Schiffe</text>
+		</panel>
+		<panel id="3" type="overlay">
+			<text type="box">...ergreift es mit wildem Weh;</text>
+		</panel>		
+	</page>
+	
+	<page id="5">
+		<description>
+			Er schaut nicht die Felsenriffe,
+			Er schaut nur hinauf in die Höh.
+		</description>
+		<panel id="1" height="0.8x" width="max">
+			<description>
+				Im Vordergrund, eine rote Ampel, im Hintergrund der LKW-fahrer, der sich aus dem Fenster lehnt und nach oben schaut
+			</description>
+			<text type="box">Er schaut nicht die Felsenriffe</text>
+			<text type="box">Er schaut nur hinauf in die Höh.</text>
+		</panel>
+		<panel id="2" height="0.7x">
+			<description>Großaufnahme: Ein blauer rechts-abbiege-Pfeil</description>
+		</panel>
+		<panel id="3" height="0.7x">
+			<description>groß: Katze auf dem Balkon (im Hintergrund: quietsch-Geräusch)</description>
+		</panel>
+		<panel id="4">
+			<description>crash mit LKW</description>
+		</panel>
+		<panel id="5" width="3x" height="2x" float="false" type="background">
+			<description>der Unfall ist passiert. Der LKW-fahrer liegt vor seinem demolierten Fahrzeug auf der Kreuzung. Blut ist auch zu sehen.</description>
+		</panel>		
+	</page>
+	
+	<page id="6">
+		<description>
+			Ich glaube, die Wellen verschlingen
+			Am Ende Schiffer und Kahn;
+			Und das hat mit ihrem Singen
+			Die Lore-Ley getan.
+		</description>
+		<panel id="1" width="max">
+			<description>
+				Ich Erzähler steigt in die Bahn ein. Im Hintergrund kommt ein Sanitäts-Wagen vorbeigebraust.
+			</description>
+			<text type="think">Ich glaube, die Wellen verschlingen am Ende Schiffer und Kahn;</text>
+		</panel>
+		<panel id="2" width="1.5x">
+			<description>Ich Erzähler in der Bahn. Von aussen zu sehen.</description>
+		</panel>
+		<panel id="3" width="1.5x" float="false">
+			<description>Ich Erzähler in der Bahn. Entfernt sich langsam.</description>
+		</panel>
+		<panel id="4" width="max" height="2x">
+			<description>Balkontür ist einen Spalt geöffnet, die Loreley hält die Tür auf, damit die Katze rein kann</description>
+			<text type="box">Und das hat mit ihrem Singen die Lore-Ley getan.</text>
+		</panel>		
+	</page>
+</comic>
